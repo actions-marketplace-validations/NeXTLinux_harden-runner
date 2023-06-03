@@ -1,4 +1,4 @@
-name: "Harden Runner"
+name: "NxL Harden Runner"
 description: "Security agent for GitHub-hosted runner to monitor the build process"
 inputs:
   allowed-endpoints:
