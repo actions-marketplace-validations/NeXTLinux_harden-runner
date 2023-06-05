@@ -33,7 +33,7 @@ jobs:
 
     - uses: actions/checkout@v3
     - name: Update the rc tag
-      uses: nextlinux/publish-action@v0.0.0
+      uses: nextlinux/publish-action@v0.1.0
       with:
         source-tag: ${{ env.TAG_NAME }}
         rc: true
@@ -45,6 +45,6 @@ jobs:
         canary: true
 
     - name: Update the ${{ env.TAG_NAME }} tag
-      uses: nextlinux/publish-action@v0.0.0
+      uses: nextlinux/publish-action@v0.1.0
       with:
         source-tag: ${{ env.TAG_NAME }}
